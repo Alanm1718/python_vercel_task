@@ -109,7 +109,7 @@ DATABASES = {
         'HOST': os.getenv('SUPABASE_HOST'),
         # la contraseña que utilizaste al crear el proyecto
         'PASSWORD': os.getenv('SUPABASE_PASSWORD'),
-        'PORT': os.getenv('SUPABASE_PORT'),
+        'PORT': os.getenv('SUPABASE_PORT','5432'),
     }
 }
 
